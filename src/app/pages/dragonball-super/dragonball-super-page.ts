@@ -13,7 +13,6 @@ interface Character {
   selector: 'app-dragonball-super-page',
   imports: [CharacterListComponent, DragonballCharacterAddComponent],
   templateUrl: './dragonball-super-page.html',
-  styleUrl: './dragonball-page.css',
 })
 export class DragonballSuperPage {
   name = signal('');
